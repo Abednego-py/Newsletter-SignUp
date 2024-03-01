@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+}
+
+#root {
+    width: 100vw;
+    height: 100%;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../src/assets/assets/fonts/Roboto-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'CustomFontBold';
+  src: url('../src/assets/assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
